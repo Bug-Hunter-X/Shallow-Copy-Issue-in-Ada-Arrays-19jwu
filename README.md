@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in Ada when dealing with arrays: shallow copying.  When one array is assigned to another, only a reference to the same memory is created.  Therefore, modifications to one array will also be reflected in the other. This repository contains the buggy code and a solution demonstrating a deep copy.
